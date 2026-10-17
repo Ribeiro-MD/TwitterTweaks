@@ -4,18 +4,18 @@ Small browser console scripts to clean up your X (Twitter) account in bulk.
 
 ## Scripts
 
-### `remove bookmarks`
+### `RemoveBookmarks`
 Removes your saved bookmarks.
 - **Run on:** `x.com/i/bookmarks`
 - **Setting:** `LIMIT` = how many bookmarks to remove per run.
 
-### `undo all reposts`
+### `UndoAllReposts`
 Undoes your reposts. It first scrolls down to load everything, then goes from the bottom to the top undoing them.
 - **Run on:** your profile page (`x.com/your_username`)
 - **Setting:** `LIMIT` = how many reposts to undo per run.
 - Quote posts are not affected (they are your own posts, delete them manually).
 
-### `unfollow all
+### `UnfollowAll
 Unfollows the accounts you follow.
 - **Run on:** `x.com/your_username/following`
 - **Setting:** `LIMIT` = how many accounts to unfollow per run.
